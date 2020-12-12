@@ -6,5 +6,12 @@ pipeline {
         bat 'python time.py'
       }
     }
+
+    stage('Test') {
+      steps {
+        sh 'echo \'Testing..\''
+      }
+    }
+
   }
 }
