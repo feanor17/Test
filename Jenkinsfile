@@ -6,5 +6,12 @@ pipeline {
         sh 'python time.py'
       }
     }
+
+    stage('Test') {
+      steps {
+        sh 'echo \'Testing..\''
+      }
+    }
+
   }
 }
