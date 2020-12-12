@@ -16,6 +16,7 @@ pipeline {
     stage('Deploy ') {
       steps {
         sh 'echo \'Deploying....\''
+        sh 'cat Jenkinsfile'
       }
     }
 
