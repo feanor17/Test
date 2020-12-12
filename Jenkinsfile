@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        bat 'python time.py'
+        sh 'python time.py'
       }
     }
 
