@@ -3,15 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'echo \'Testing..\''
+        sh 'python time.py'
       }
     }
-
-    stage('Test') {
-      steps {
-        echo 'Testing..'
-      }
-    }
-
   }
 }
